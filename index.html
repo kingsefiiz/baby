@@ -4,6 +4,7 @@
 
   <title>Happy birthday baby</title>
   <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/408/408726.png">
+  <link rel="stylesheet" href="styles.scss">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style media="" data-href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     button,
@@ -412,24 +413,24 @@
   <script>
     window.console = window.console || function (t) {};
   </script>
-   <style>
+  <style>
     body {
       background-color: #111;
       display: flex;
       justify-content: center;
       align-items: center;
-      min-height: 60vh;
+      min-height: 40vh;
       margin: 0;
       font-family: Arial, sans-serif;
     }
-    
+
     .sparkling-text {
       font-size: 36px;
       color: #f06;
       position: relative;
       text-shadow: 0 0 10px rgba(255, 102, 0, 0.8);
     }
-    
+
     .green-sparkle {
       display: inline-block;
       width: 10px;
@@ -453,12 +454,15 @@
       transform: translate(-50%, -50%);
       animation: sparkle-animation 1s infinite;
     }
-    
+
     @keyframes sparkle-animation {
-      0%, 100% {
+
+      0%,
+      100% {
         transform: translate(-50%, -50%) scale(1) rotate(0);
         opacity: 0;
       }
+
       50% {
         opacity: 1;
       }
@@ -467,19 +471,19 @@
     .white-sparkle:first-child {
       animation-delay: 0s;
     }
-    
+
     .white-sparkle:nth-child(2) {
       animation-delay: 0.2s;
     }
-    
+
     .green-sparkle:nth-child(3) {
       animation-delay: 0.4s;
     }
-    
+
     .green-sparkle:nth-child(4) {
       animation-delay: 0.6s;
     }
-    
+
     .green-sparkle:nth-child(5) {
       animation-delay: 0.8s;
     }
@@ -487,8 +491,18 @@
 </head>
 
 <body translate="no" data-new-gr-c-s-check-loaded="8.906.0" data-gr-ext-installed="">
-  <div class="sparkling-text">
-    H<span class="white-sparkle"></span>a<span class="white-sparkle"></span>p<span class="green-sparkle"></span>p<span class="green-sparkle"></span>y<span class="green-sparkle"></span> Birthday Love ❤️️
+
+  <div class="firework"></div>
+  <div class="firework"></div>
+  <div class="firework"></div>
+  <div class="firework"></div>
+  <div class="firework"></div>
+  <div class="firework"></div>
+
+
+  <div class="sparkling-text" style="padding-bottom: 30rem;">
+    H<span class="white-sparkle"></span>a<span class="white-sparkle"></span>p<span class="green-sparkle"></span>p<span
+      class="green-sparkle"></span>y<span class="green-sparkle"></span> Birthday Love ❤️
   </div>
   <div class="cake">
     <div class="plate"></div>
@@ -503,7 +517,7 @@
     <div class="drip drip3"></div>
     <div class="candle">
       <div class="flame"></div>
-    </div>    
+    </div>
   </div>
 
 
